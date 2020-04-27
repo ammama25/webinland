@@ -15,7 +15,7 @@
 
 <% exceeds_limit = current_room_exceeds_limit(@room)%>
 <% if exceeds_limit%>
-  <div class="alert alert-danger alert-dismissible text-center mb-0">
+  <div class="alert alert-danger alert-dismissible text-center mb-0 farsi">
     <%= t("room.room_limit_exceeded", difference: @diff) %>
   </div>
 <% end %>
@@ -32,9 +32,9 @@
             <a><i id="edit-room" class="fa fa-edit align-top home-indicator ml-2" data-edit-room="<%= @room.uid %>"></i></a>
           <% end %>
         </div>
-        <h4 class="text-left mb-6"><%= @room.sessions %> <%= t("room.sessions") %> | <%= @recordings.length %> <%= t("room.recordings") %></h4>
+        <h4 class="text-left mb-6 farsi"><%= @room.sessions %> <%= t("room.sessions") %> | <%= @recordings.length %> <%= t("room.recordings") %></h4>
         <% unless exceeds_limit %>
-          <label class="form-label"><%= t("room.invite_participants") %></label>
+          <label class="form-label farsi"><%= t("room.invite_participants") %></label>
           <div class="row">
             <div class="col-lg-7 col-md-12 mt-2">
               <div class="input-icon invite-link-input">

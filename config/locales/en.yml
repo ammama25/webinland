@@ -161,7 +161,7 @@ en:
         username: Username
       title: Manage Users
   add_to_google_calendar: "Add to Google Calendar"
-  bigbluebutton: BigBlueButton
+  bigbluebutton: WebinLand
   bigbluebutton_exception: Oops, there was an error when starting the meeting!
   cancel: Cancel
   cookies:
@@ -229,8 +229,13 @@ en:
     recordings: Recording Management
     designs: Custom Designs
     authentication: User Authentication
+    webinar: specialized webinars
+    class: private and public classes
+    meeting: organizational and personal meetings
   footer:
     powered_by: Powered by %{href}.
+    phone: ": Phone"
+    email: ": Email"
   forgot_password:
     subtitle: Forgot Password
     email: Email
@@ -260,8 +265,15 @@ en:
     search:
       start: Start searching...
   landing:
-    about: "%{href} is a simple front-end for your BigBlueButton open-source web conferencing server. You can create your own rooms to host sessions, or join others using a short and convenient link."
-    welcome: Welcome to BigBlueButton.
+    about: "Easily manage all your meetings with Webinland without time or space restrictions."
+    about1: "use in any place and at any time"
+    about2: "invite guest users with high security"
+    about3: "hold public and private meetings at the same time"
+    about4: "share image, sound and screen"
+    about5: "No need for high speed internet"
+    about6: "Available for smartphones, tablets, and laptops"
+    welcome: WebinLand
+    welcome2: Online video meeting system
     video: Watch our tutorial on using Greenlight
     upgrade: Show me how to upgrade to 2.0!
     version: We've released a new version of Greenlight, but your database isn't compatible.

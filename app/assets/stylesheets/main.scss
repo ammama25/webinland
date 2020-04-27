@@ -23,6 +23,14 @@
   font-size: 3.3vw;
 }
 
+.farsi {
+  direction: rtl;
+}
+
+.header_logo{
+  height: 17%;
+  margin-top: -4%;
+}
 .landing-section {
   position: relative;
   height: 40%;
@@ -37,6 +45,25 @@
     padding:1em 1.5em;
     height:auto;
   }
+}
+
+.landing {
+  padding-top: 2%;
+}
+
+.new-feature {
+    height: 70%;
+    width: 90%;
+    background-size: 18px 18px;
+    padding:10px 10px 10px 10px;
+}
+
+.insta{
+  width: 10%;
+}
+
+.persian {
+  text-align: right;
 }
 
 .or-line {
