@@ -25,12 +25,14 @@
 
 .farsi {
   direction: rtl;
+  text-align: right;
 }
 
-.header_logo{
-  height: 17%;
-  margin-top: -4%;
+.header-logo{
+  height: 4rem;
+  margin-top: -20%;
 }
+
 .landing-section {
   position: relative;
   height: 40%;
@@ -184,4 +186,8 @@
 
 .signin-button {
   font-size: 16px;
+}
+
+.header_buttons{
+  display: -webkit-box !important;
 }

@@ -431,11 +431,11 @@ fa_IR:
     recorded_on: "ضبط شده در %{date}"
     table:
       name: نام
-      thumbnails: تصاویر کوچک
-      length: طول
+      thumbnails: پیش نمایش
+      length: مدت
       users: کاربران
-      visibility: حالت نمایش
-      formats: قالب ها
+      visibility: قابلیت دیدن
+      formats: بازپخش
     visibility:
       public: عمومی
       unlisted: لیست نشده
@@ -486,7 +486,7 @@ fa_IR:
     enter_the_access_code: کد دسترسی به اتاق را وارد کنید
     invalid_provider: شما ادرس نامعتبری را وارد کرده اید، لطفا ادرس را بررسی کرده و دوباره تلاش کنید
     invited: شما برای ملحق شدن دعوت شده اید
-    invite_participants: دعوت شرکت کنندگان
+    invite_participants: لینک دعوت به جلسه
     join: پیوستن
     last_session: "آخرین جلسه در %{session}"
     login: ورود
@@ -502,7 +502,7 @@ fa_IR:
       recent_rooms: رفتن به اتاقی که اخیرا وارد شده اید
       title: وارد شدن به جلسه
     no_sessions: این اتاق هنوز جلسه ای ندارد!
-    recordings: موارد ضبط شده اتاق
+    recordings: لیست جلسات ضبط شده اتاق 
     room_limit: شما به تعداد ماکسیمم اتاق های مجاز رسیدید.
     room_limit_exceeded: "شما به ماکسیمم تعداد اتاق های مجاز رسیده اید، لطفا %{difference} اتاق (ها) حذف کنید تا به این اتاق وارید شوید."
     sessions: جلسات
@@ -513,7 +513,7 @@ fa_IR:
     remove_shared_access_error: خطایی در حذف اتاق اشتراکی از لیست شما رخ داده است
     shared_access_success: اتاق با موفقیت به اشتراک گذاشته شد
     shared_access_error: خطایی در اشتراک اتاق رخ داد
-    start: آغاز
+    start: شروع جلسه
     unavailable: این اتاق به دلیل اینکه ایمیل صاحب آن هنوز تایید نشده است در دسترس نیست.
     update_settings_error: خطایی در به روز رسانی تنظیمات اتاق رخ داده است
     update_settings_success: اطلاعات اتاق با موفقیت به روز رسانی شد
