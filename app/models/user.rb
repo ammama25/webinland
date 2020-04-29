@@ -130,6 +130,10 @@ class User < ApplicationRecord
     digest == Digest::SHA256.base64digest(token)
   end
 
+  def send_support_email(role, field, desc)
+    UserMailer.support_email(self, role, field, desc).deliver
+  end
+
   # Return true if password reset link expires
   def password_reset_expired?
     reset_sent_at < 2.hours.ago

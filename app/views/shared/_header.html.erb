@@ -23,6 +23,17 @@
           <%= t("administrator.site_settings.branding.invalid") %>
         <% end %>
       <% end %>
+      <div class="d-flex mr-auto">  
+        <%= link_to "http://www.webinland.ir", class: "px-3 mx-1 mt-1 header-nav " do %>
+          <i class="fas  pr-1 "></i> <%= t("header.dropdown.prices") %>
+        <% end %>
+        <%= link_to help_path, class: "px-3 mx-1 mt-1 header-nav " do %>
+          <i class="fas  pr-1 "></i> <%= t("header.dropdown.help") %>
+        <% end %>
+        <%= link_to support_path, class: "px-3 mx-1 mt-1 header-nav " do %>
+          <i class="fas  pr-1 "></i> <%= t("header.dropdown.support") %>
+        <% end %>
+      </div> 
       <div class="header_buttons mr-auto">
         <% if current_user %>
 
@@ -80,11 +91,6 @@
                 <% end %>
               <% end %>
               <div class="dropdown-divider"></div>
-              <% if Rails.configuration.help_url.present? %>
-                <a class="dropdown-item" href="<%= Rails.configuration.help_url %>" target="_blank" rel="noopener">
-                  <i class="dropdown-icon far fa-question-circle ml-3"></i> <%= t("header.dropdown.help") %>
-                </a>
-              <% end %>
               <% if Rails.configuration.report_issue_url.present? %>
                 <a class="dropdown-item" href="<%= Rails.configuration.report_issue_url %>" target="_blank" rel="noopener">
                   <i class="dropdown-icon fas fa-exclamation ml-3"></i><%= t("errors.internal.report") %>

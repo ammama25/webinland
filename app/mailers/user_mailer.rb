@@ -98,4 +98,12 @@ class UserMailer < ApplicationMailer
 
     mail to: admin_emails, subject: t('mailer.user.invite.signup.subject')
   end
+
+  def support_email(user, role, field, desc)
+    @user = user
+    @role = role
+    @field = field
+    @desc = desc
+    mail to: 'amyazdy@gmail.com', subject: t('support.title')
+  end
 end

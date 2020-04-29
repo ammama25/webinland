@@ -44,7 +44,7 @@
     <%= f.label t("settings.account.roles"), class: "form-label" %>
     <div id="role-tag-container" class="tags mb-1">
       <% @user.roles.by_priority.each do |role| %>
-        <span id="<%= "user-role-tag_#{role.id}" %>" style="<%= "background-color: #{role_colour(role)};border-color: #{role_colour(role)};" %>" class="tag user-role-tag">
+        <span id="<%= "user-role-tag_#{role.id}" %>" style="<%= "background-color: #{role_colour(role)};border-color: #{role_colour(role)};" %>" class="tag user-role-tag ml-1 ltr">
           <%= translated_role_name(role) %>
           <% if (current_user_role.get_permission("can_manage_users") || current_user_role.name == "super_admin") && (role.priority > current_user_role.priority || current_user_role.name == "admin") %>
             <a data-role-id="<%= role.id %>" class="tag-addon clear-role">
