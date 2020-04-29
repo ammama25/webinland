@@ -242,8 +242,10 @@ fa_IR:
   header:
     all_recordings: تمام جلسات ضبط شده
     dropdown:
+      help: راهنما
+      support: پشتیبانی
       account_settings: سازمان
-      help: نیاز به کمک دارید؟
+      # help: نیاز به کمک دارید؟
       home: خانه
       settings: پروفایل
       signout: خروج
