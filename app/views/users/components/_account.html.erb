@@ -64,12 +64,12 @@
     <div class="row">
       <div class="col-2">
         <% if @user.image.blank? %>
-          <span class="avatar avatar-xxl mr-5 mt-2 bg-primary"><%= @user.name.first %></span>
+          <span class="avatar avatar-xxl ml-5 mt-2 bg-primary"><%= @user.name.first %></span>
         <% else %>
-          <span class="avatar avatar-xxl mr-5 mt-2" style="background-image: url(<%= @user.image %>)"></span>
+          <span class="avatar avatar-xxl ml-5 mt-2" style="background-image: url(<%= @user.image %>)"></span>
         <% end %>
       </div>
-      <div class="col-10 mt-5">
+      <div class="col-10 mt-5 mr-1">
         <%= f.text_field :image, class: "form-control #{form_is_invalid?(@user, :image)}", placeholder: t("settings.account.image_url") %>
       </div>
     </div>
