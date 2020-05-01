@@ -3,6 +3,11 @@
   src: asset-url(font-path('SourceSansPro/Lalezar-Regular.ttf')) format('truetype');
 }
 
+@font-face {
+  font-family: 'shabnam';
+  src: asset-url(font-path('SourceSansPro/Shabnam.ttf')) format('truetype');
+}
+
 /* cyrillic-ext */
 @font-face {
   font-family: 'Source Sans Pro';
