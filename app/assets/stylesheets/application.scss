@@ -168,6 +168,20 @@ input:focus {
   }
 }
 
+.price {
+  color: $text-muted !important;
+
+  &:hover {
+    
+  }
+
+  &.active {
+    color: $primary !important;
+    padding-bottom: 21px;
+    border-bottom: 1px solid $primary;
+  }
+}
+
 table {
   thead {
     th[data-order]:hover {
